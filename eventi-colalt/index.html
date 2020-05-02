@@ -1,317 +1,379 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US"> 
+<html class="no-js" lang="en-US">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eventi  |  Rifugio ColAlt</title>
-		
-	
-<link rel="dns-prefetch" href="//maps.googleapis.com">
-<link rel="dns-prefetch" href="//s.w.org">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventi | Rifugio ColAlt</title>
+
+
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
 
 
 
-<link rel="stylesheet" id="fancybox-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/fancybox-2.1.5/jquery.fancybox.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-block-library-css" href="https://rifugiocolalt.github.io/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="cisc-shortcodes-css" href="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-css" href="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/css/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" id="ci-google-font-css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C300italic%7CPT+Serif%3A400%2C700%2C400italic&ver=5.4.1" type="text/css" media="all">
-<link rel="stylesheet" id="ci-base-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/base.css" type="text/css" media="all">
-<link rel="stylesheet" id="ci-flexslider-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/flexslider.css" type="text/css" media="all">
-<link rel="stylesheet" id="mmenu-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/mmenu.css" type="text/css" media="all">
-<link rel="stylesheet" id="ci-style-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio_ch/style.css" type="text/css" media="screen">
-<style id="ci-style-inline-css" type="text/css">
-#ci-split-custom-1 .widget-wrap { color: #ffffff; background-color: #0a0a0a; background: url(https://rifugiocolalt.github.io/wp-content/uploads/2015/11/featured_rifugio.jpg) no-repeat top center;  } 
+    <link rel="stylesheet" id="fancybox-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/fancybox-2.1.5/jquery.fancybox.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wp-block-library-css" href="https://rifugiocolalt.github.io/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cisc-shortcodes-css" href="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/css/font-awesome.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ci-google-font-css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C300italic%7CPT+Serif%3A400%2C700%2C400italic&ver=5.4.1" type="text/css" media="all">
+    <link rel="stylesheet" id="ci-base-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/base.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ci-flexslider-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/flexslider.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mmenu-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio/css/mmenu.css" type="text/css" media="all">
+    <link rel="stylesheet" id="ci-style-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio_ch/style.css" type="text/css" media="screen">
+    <style id="ci-style-inline-css" type="text/css">
+        #ci-split-custom-1 .widget-wrap {
+            color: #ffffff;
+            background-color: #0a0a0a;
+            background: url(https://rifugiocolalt.github.io/wp-content/uploads/2015/11/featured_rifugio.jpg) no-repeat top center;
+        }
+        
+        #ci-split-custom-2 .widget-wrap {
+            color: #ffffff;
+            background-color: #0a0a0a;
+            background: url(https://rifugiocolalt.github.io/wp-content/uploads/2015/11/featured_ristorante.jpg) repeat top center;
+        }
+    </style>
+    <link rel="stylesheet" id="ci-color-scheme-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio_ch/colors/default.css" type="text/css" media="all">
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-includes/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/jquery.fitvids.js"></script>
 
-#ci-split-custom-2 .widget-wrap { color: #ffffff; background-color: #0a0a0a; background: url(https://rifugiocolalt.github.io/wp-content/uploads/2015/11/featured_ristorante.jpg) repeat top center;  } 
-
-</style>
-<link rel="stylesheet" id="ci-color-scheme-css" href="https://rifugiocolalt.github.io/wp-content/themes/rifugio_ch/colors/default.css" type="text/css" media="all">
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/jquery.fitvids.js"></script>
 
 
 
 
 
 
-
-<link rel="shortcut icon" type="image/x-icon" href="https://rifugiocolalt.github.io/wp-content/uploads/2015/11/favicon.ico">				<style type="text/css">
-					body{background-color: #f2f2f2;background-repeat: repeat;} 				</style>
-						<style type="text/css">
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-body {
-    
-    font-family: "Lato",serif;
-}
-.feature-video {
-    margin: 0;
-}
-#ci-split-custom-1 .widget-wrap, #ci-split-custom-2 .widget-wrap, #ci-events-6 .widget-wrap {
-    background-size: cover; text-align:center;}
-.img-customer-page{height:320px;overflow:hidden;background-position:center center;
-}
-.main {
-    background-color: #fff;
-    padding: 0;
-}
-.hero{display:none}
-.hero::before, .home-slider .slides li::before {background: none;}
-.ci-socials-ignited {
-    line-height: 0;
-    padding: 5px;
-    text-align: center;
-}
-#navigation a {color: #000;}
-.entry-thumb {
-    margin: 0;
-}
-.entry-content {
-    margin: 20px 0 30px;
-}
-.btn, .comment-reply-link, input[type="button"], input[type="submit"], input[type="reset"], button {
-    background-color: #B36B00;    border-color: -moz-use-text-color -moz-use-text-color #B36B00;}
-
-.btn:hover, .comment-reply-link:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
-    background-color: #331F00;
-}
-.entry-thumb > a::before, .item > a::before {
-    background: none;}
-.hero-title {
-    color: #000;}
-.header {
-    margin: 10px 0 20px;
-}
-.home-slider {
-    display: none;}</style>
+    <link rel="shortcut icon" type="image/x-icon" href="https://rifugiocolalt.github.io/wp-content/uploads/2015/11/favicon.ico">
+    <style type="text/css">
+        body {
+            background-color: #f2f2f2;
+            background-repeat: repeat;
+        }
+    </style>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+        body {
+            font-family: "Lato", serif;
+        }
+        
+        .feature-video {
+            margin: 0;
+        }
+        
+        #ci-split-custom-1 .widget-wrap,
+        #ci-split-custom-2 .widget-wrap,
+        #ci-events-6 .widget-wrap {
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .img-customer-page {
+            height: 320px;
+            overflow: hidden;
+            background-position: center center;
+        }
+        
+        .main {
+            background-color: #fff;
+            padding: 0;
+        }
+        
+        .hero {
+            display: none
+        }
+        
+        .hero::before,
+        .home-slider .slides li::before {
+            background: none;
+        }
+        
+        .ci-socials-ignited {
+            line-height: 0;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        #navigation a {
+            color: #000;
+        }
+        
+        .entry-thumb {
+            margin: 0;
+        }
+        
+        .entry-content {
+            margin: 20px 0 30px;
+        }
+        
+        .btn,
+        .comment-reply-link,
+        input[type="button"],
+        input[type="submit"],
+        input[type="reset"],
+        button {
+            background-color: #B36B00;
+            border-color: -moz-use-text-color -moz-use-text-color #B36B00;
+        }
+        
+        .btn:hover,
+        .comment-reply-link:hover,
+        input[type="button"]:hover,
+        input[type="submit"]:hover,
+        input[type="reset"]:hover,
+        button:hover {
+            background-color: #331F00;
+        }
+        
+        .entry-thumb>a::before,
+        .item>a::before {
+            background: none;
+        }
+        
+        .hero-title {
+            color: #000;
+        }
+        
+        .header {
+            margin: 10px 0 20px;
+        }
+        
+        .home-slider {
+            display: none;
+        }
+    </style>
 </head>
+
 <body class="page-template page-template-template-listing-events page-template-template-listing-events-php page page-id-45 ci-resto ci-resto-1-0 ci-scheme-default">
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24422486-19"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24422486-19"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-24422486-19');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-	
-
-<div id="page">
-	<div id="mobile-bar">
-		<a class="menu-trigger" href="#mobilemenu"><i class="fa fa-bars"></i></a>
-		<p class="mob-title">Rifugio ColAlt</p>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<header class="header">
-					<div class="row">
-						<div class="col-sm-3">
-							<h1 class="logo imglogo"><a href="https://rifugiocolalt.github.io"><img src="https://rifugiocolalt.github.io/wp-content/uploads/2015/11/logoheader.png" alt="Rifugio ColAlt"></a></h1>													</div>
-						<div class="col-sm-9">
-							<nav id="nav">
-								<ul id="navigation" class="group"><li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-149"><a href="https://rifugiocolalt.github.io/">Home</a></li>
-<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://rifugiocolalt.github.io/rifugio-colalt/">Rifugio</a></li>
-<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://rifugiocolalt.github.io/ristorante-colalt/">Ristorante</a></li>
-<li id="menu-item-486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-486"><a href="https://rifugiocolalt.github.io/wp-content/uploads/2018/12/rifugio-col-alt-carta-dei-vini-2019.pdf">Carta dei Vini</a></li>
-<li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="https://rifugiocolalt.github.io/gallery/">Gallery</a></li>
-<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://rifugiocolalt.github.io/localita/">Località</a></li>
-<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="https://rifugiocolalt.github.io/news/">NEWS</a></li>
-<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-45 current_page_item menu-item-153"><a href="https://rifugiocolalt.github.io/eventi-colalt/" aria-current="page">Eventi</a></li>
-<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://rifugiocolalt.github.io/stampa-colalt/">Stampa</a></li>
-<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://rifugiocolalt.github.io/contatti-colalt/">Contatti</a></li>
-</ul>							</nav>
-
-							<div id="mobilemenu"></div>
-						</div>
-					</div>
-				</header>
-<div class="hero" style="background-image: url('https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1280x160.jpg')">
-	<h1 class="hero-title">Eventi</h1>
-</div>
-
-<div class="row" style="padding-top:40px">
-			<div class="col-md-12">
-
-													<article id="entry-45" class="entry post-45 page type-page status-publish has-post-thumbnail hentry">
-													<figure class="entry-thumb">
-								<a class="img-customer-page">
-									<img width="1280" height="441" src="https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1.jpg" class="attachment-ci_page_customer size-ci_page_customer wp-post-image" alt="" srcset="https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1.jpg 1280w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-300x103.jpg 300w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-768x265.jpg 768w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-1024x353.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">								</a>
-							</figure>
-							
-						
-											</article>
-				
-			</div>	
-</div>
-
-<main class="main" role="main">
-		<div class="row" style="padding-top:40px;padding-bottom:40px">
-			<div class="col-md-10 col-md-offset-1">	
-				
-
-				
-									<br>
-<font size="1"><table class="xdebug-error xe-warning" dir="ltr" border="1" cellspacing="0" cellpadding="1">
-<tr><th align="left" bgcolor="#f57900" colspan="5"><span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Warning: count(): Parameter must be an array or an object that implements Countable in /Users/adriano/Local Sites/rifugiocolalt/app/public/wp-content/themes/rifugio/panel/generic.php on line <i>1057</i></th></tr>
-<tr><th align="left" bgcolor="#e9b96e" colspan="5">Call Stack</th></tr>
-<tr><th align="center" bgcolor="#eeeeec">#</th><th align="left" bgcolor="#eeeeec">Time</th><th align="left" bgcolor="#eeeeec">Memory</th><th align="left" bgcolor="#eeeeec">Function</th><th align="left" bgcolor="#eeeeec">Location</th></tr>
-<tr><td bgcolor="#eeeeec" align="center">1</td><td bgcolor="#eeeeec" align="center">0.0001</td><td bgcolor="#eeeeec" align="right">402512</td><td bgcolor="#eeeeec">{main}(  )</td><td title="/Users/adriano/Local Sites/rifugiocolalt/app/public/index.php" bgcolor="#eeeeec">.../index.php<b>:</b>0</td></tr>
-<tr><td bgcolor="#eeeeec" align="center">2</td><td bgcolor="#eeeeec" align="center">0.0001</td><td bgcolor="#eeeeec" align="right">402784</td><td bgcolor="#eeeeec">require( <font color="#00bb00">'/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-blog-header.php'</font> )</td><td title="/Users/adriano/Local Sites/rifugiocolalt/app/public/index.php" bgcolor="#eeeeec">.../index.php<b>:</b>17</td></tr>
-<tr><td bgcolor="#eeeeec" align="center">3</td><td bgcolor="#eeeeec" align="center">0.0534</td><td bgcolor="#eeeeec" align="right">3921176</td><td bgcolor="#eeeeec">require_once( <font color="#00bb00">'/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-includes/template-loader.php'</font> )</td><td title="/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-blog-header.php" bgcolor="#eeeeec">.../wp-blog-header.php<b>:</b>19</td></tr>
-<tr><td bgcolor="#eeeeec" align="center">4</td><td bgcolor="#eeeeec" align="center">0.0541</td><td bgcolor="#eeeeec" align="right">3923216</td><td bgcolor="#eeeeec">include( <font color="#00bb00">'/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-content/themes/rifugio_ch/template-listing-events.php'</font> )</td><td title="/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-includes/template-loader.php" bgcolor="#eeeeec">.../template-loader.php<b>:</b>106</td></tr>
-<tr><td bgcolor="#eeeeec" align="center">5</td><td bgcolor="#eeeeec" align="center">0.0802</td><td bgcolor="#eeeeec" align="right">4217176</td><td bgcolor="#eeeeec">merge_wp_queries(  )</td><td title="/Users/adriano/Local Sites/rifugiocolalt/app/public/wp-content/themes/rifugio_ch/template-listing-events.php" bgcolor="#eeeeec">.../template-listing-events.php<b>:</b>96</td></tr>
-</table></font>
-									
-																				<h3 class="section-title"></h3>
-						<div class="event-list">
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">31</span>
-										<span class="event-month">Dec</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">Cenone di San Silvestro</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/cenone-di-san-silvestro/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">05</span>
-										<span class="event-month">Feb</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">Settimana del Radicchio</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/settimana-del-radicchio/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">24</span>
-										<span class="event-month">Jan</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">Pranzo “Care’s”</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/pranzo-cares/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">16</span>
-										<span class="event-month">Dec</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">Coppa del Mondo, “Cena in Quota”</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/coppa-del-mondo-cena-in-quota/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">11</span>
-										<span class="event-month">Dec</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">Inaugurazione “Sciare con Gusto”</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/inaugurazione-sciare-con-gusto/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">02</span>
-										<span class="event-month">May</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">17 gennaio 2016</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/17-gennaio-2016/">View Event</a>
-									</div>
-								</div>
-																							<div class="event-item">
-									<div class="event-date">
-										<span class="event-day">02</span>
-										<span class="event-month">May</span>
-									</div>
-
-									<div class="event-info">
-										<p class="event-title">19 gennaio 2016 Pranzo Care’s al rifugio Col Alt</p>
-										<p class="event-subtitle"></p>
-
-										<a class="btn" href="https://rifugiocolalt.github.io/event/19-gennaio-2016-pranzo-cares-al-rifugio-col-alt/">View Event</a>
-									</div>
-								</div>
-																				</div>
-															
-			</div>
-		</div>
-	</main>
+        gtag('config', 'UA-24422486-19');
+    </script>
 
 
-									<div class="bottom-widgets">
-						<section id="ci-info-3" class="widget group widget_ci-info"><span><i class="fa fa-location-arrow"></i> 39033 Corvara In Badia, BZ</span><span><i class="fa fa-phone"></i> +39 0471 836324</span><span><i class="fa fa-envelope"></i> info@rifugiocolalt.it</span></section>					</div>
-								<footer class="footer">
 
-					<div class="row copy">
-						<div class="col-sm-6">
-							<p><a href="https://rifugiocolalt.github.io" title="Rifugio ColAlt">© Rifugio ColAlt - IT01444280216 </a></p>
-						</div>
+    <div id="page">
+        <div id="mobile-bar">
+            <a class="menu-trigger" href="#mobilemenu"><i class="fa fa-bars"></i></a>
+            <p class="mob-title">Rifugio ColAlt</p>
+        </div>
 
-						<div class="col-sm-6">
-							<p class="text-right"><a href="https://rifugiocolalt.github.io/privacy-policy" title="Rifugio ColAlt">Privacy Policy</a> | <a href="https://rifugiocolalt.github.io/informativa-estesa-uso-dei-cookie" title="Rifugio ColAlt">Cookie Policy</a></p>
-						</div>
-					</div>
-				</footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <header class="header">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h1 class="logo imglogo">
+                                    <a href="https://rifugiocolalt.github.io"><img src="https://rifugiocolalt.github.io/wp-content/uploads/2015/11/logoheader.png" alt="Rifugio ColAlt"></a>
+                                </h1>
+                            </div>
+                            <div class="col-sm-9">
+                                <nav id="nav">
+                                    <ul id="navigation" class="group">
+                                        <li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-149"><a href="https://rifugiocolalt.github.io/">Home</a></li>
+                                        <li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://rifugiocolalt.github.io/rifugio-colalt/">Rifugio</a></li>
+                                        <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://rifugiocolalt.github.io/ristorante-colalt/">Ristorante</a></li>
+                                        <li id="menu-item-486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-486"><a href="https://rifugiocolalt.github.io/wp-content/uploads/2018/12/rifugio-col-alt-carta-dei-vini-2019.pdf">Carta dei Vini</a></li>
+                                        <li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="https://rifugiocolalt.github.io/gallery/">Gallery</a></li>
+                                        <li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="https://rifugiocolalt.github.io/localita/">Località</a></li>
+                                        <li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="https://rifugiocolalt.github.io/news/">NEWS</a></li>
+                                        <li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-45 current_page_item menu-item-153"><a href="https://rifugiocolalt.github.io/eventi-colalt/" aria-current="page">Eventi</a></li>
+                                        <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="https://rifugiocolalt.github.io/stampa-colalt/">Stampa</a></li>
+                                        <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://rifugiocolalt.github.io/contatti-colalt/">Contatti</a></li>
+                                    </ul>
+                                </nav>
 
-			</div>
-		</div>
-	</div>
-</div> 
+                                <div id="mobilemenu"></div>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="hero" style="background-image: url('https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1280x160.jpg')">
+                        <h1 class="hero-title">Eventi</h1>
+                    </div>
 
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/fancybox-2.1.5/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/js/jquery.flexslider.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/js/scripts.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/jquery.hoverIntent.r7.min.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/superfish-1.7.4.min.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/js/jquery.mmenu.min.all.js"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var ThemeOption = {"slider_autoslide":"","slider_effect":"fade","slider_direction":"horizontal","slider_duration":"600","slider_speed":"3000"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/js/scripts.js"></script>
-<script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/retina.1.3.0.min.js"></script>
-		<script type="text/javascript">
-			jQuery( document ).ready( function( $ ) {
-				$( ".fancybox, a[rel^='fancybox[']" ).fancybox( {
-					fitToView : true,
-					padding   : 0,
-					nextEffect: 'fade',
-					prevEffect: 'fade'
-				} );
-			} );
-		</script>
-		
+                    <div class="row" style="padding-top:40px">
+                        <div class="col-md-12">
+
+                            <article id="entry-45" class="entry post-45 page type-page status-publish has-post-thumbnail hentry">
+                                <figure class="entry-thumb">
+                                    <a class="img-customer-page">
+                                        <img width="1280" height="441" src="https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1.jpg" class="attachment-ci_page_customer size-ci_page_customer wp-post-image" alt="" srcset="https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1.jpg 1280w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-300x103.jpg 300w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-768x265.jpg 768w,https://rifugiocolalt.github.io/wp-content/uploads/2014/10/gallery-localita-colalt-1-1-1024x353.jpg 1024w"
+                                            sizes="(max-width: 1280px) 100vw, 1280px"> </a>
+                                </figure>
+
+
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <main class="main" role="main">
+                        <div class="row" style="padding-top:40px;padding-bottom:40px">
+                            <div class="col-md-10 col-md-offset-1">
+
+                                <h3 class="section-title"></h3>
+                                <div class="event-list">
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">31</span>
+                                            <span class="event-month">Dec</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">Cenone di San Silvestro</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/cenone-di-san-silvestro/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">05</span>
+                                            <span class="event-month">Feb</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">Settimana del Radicchio</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/settimana-del-radicchio/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">24</span>
+                                            <span class="event-month">Jan</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">Pranzo “Care’s”</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/pranzo-cares/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">16</span>
+                                            <span class="event-month">Dec</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">Coppa del Mondo, “Cena in Quota”</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/coppa-del-mondo-cena-in-quota/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">11</span>
+                                            <span class="event-month">Dec</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">Inaugurazione “Sciare con Gusto”</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/inaugurazione-sciare-con-gusto/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">02</span>
+                                            <span class="event-month">May</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">17 gennaio 2016</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/17-gennaio-2016/">View Event</a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-date">
+                                            <span class="event-day">02</span>
+                                            <span class="event-month">May</span>
+                                        </div>
+
+                                        <div class="event-info">
+                                            <p class="event-title">19 gennaio 2016 Pranzo Care’s al rifugio Col Alt</p>
+                                            <p class="event-subtitle"></p>
+
+                                            <a class="btn" href="https://rifugiocolalt.github.io/event/19-gennaio-2016-pranzo-cares-al-rifugio-col-alt/">View Event</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </main>
+
+
+                    <div class="bottom-widgets">
+                        <section id="ci-info-3" class="widget group widget_ci-info"><span><i class="fa fa-location-arrow"></i> 39033 Corvara In Badia, BZ</span><span><i class="fa fa-phone"></i> +39 0471 836324</span><span><i class="fa fa-envelope"></i> info@rifugiocolalt.it</span></section>
+                    </div>
+                    <footer class="footer">
+
+                        <div class="row copy">
+                            <div class="col-sm-6">
+                                <p><a href="https://rifugiocolalt.github.io" title="Rifugio ColAlt">© Rifugio ColAlt - IT01444280216 </a></p>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p class="text-right"><a href="https://rifugiocolalt.github.io/privacy-policy" title="Rifugio ColAlt">Privacy Policy</a> | <a href="https://rifugiocolalt.github.io/informativa-estesa-uso-dei-cookie" title="Rifugio ColAlt">Cookie Policy</a></p>
+                            </div>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/fancybox-2.1.5/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/plugins/cssigniter-shortcodes/src/js/scripts.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/jquery.hoverIntent.r7.min.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/superfish-1.7.4.min.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/js/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var ThemeOption = {
+            "slider_autoslide": "",
+            "slider_effect": "fade",
+            "slider_direction": "horizontal",
+            "slider_duration": "600",
+            "slider_speed": "3000"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/js/scripts.js"></script>
+    <script type="text/javascript" src="https://rifugiocolalt.github.io/wp-content/themes/rifugio/panel/scripts/retina.1.3.0.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".fancybox, a[rel^='fancybox[']").fancybox({
+                fitToView: true,
+                padding: 0,
+                nextEffect: 'fade',
+                prevEffect: 'fade'
+            });
+        });
+    </script>
+
 </body>
+
 </html>
