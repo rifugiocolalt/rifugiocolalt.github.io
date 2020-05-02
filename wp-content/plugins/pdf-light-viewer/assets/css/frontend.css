@@ -1,0 +1,254 @@
+@font-face {font-family: "simple-line-icons";src: url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.eot?v=2.2.2");src: url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.eot?#iefix&v=2.2.2") format("embedded-opentype"),url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.ttf?v=2.2.2") format("truetype"),url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.2.2") format("woff2"),url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.woff?v=2.2.2") format("woff"),url("../bower_components/simple-line-icons/fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons") format("svg");font-weight: normal;font-style: normal;}
+.slicon-user, .slicon-people, .slicon-user-female, .slicon-user-follow, .slicon-user-following, .slicon-user-unfollow, .slicon-login, .slicon-logout, .slicon-emotsmile, .slicon-phone, .slicon-call-end, .slicon-call-in, .slicon-call-out, .slicon-map, .slicon-location-pin, .slicon-direction, .slicon-directions, .slicon-compass, .slicon-layers, .slicon-menu, .slicon-list, .slicon-options-vertical, .slicon-options, .slicon-arrow-down, .slicon-arrow-left, .slicon-arrow-right, .slicon-arrow-up, .slicon-arrow-up-circle, .slicon-arrow-left-circle, .slicon-arrow-right-circle, .slicon-arrow-down-circle, .slicon-check, .slicon-clock, .slicon-plus, .slicon-close, .slicon-trophy, .slicon-screen-smartphone, .slicon-screen-desktop, .slicon-plane, .slicon-notebook, .slicon-mustache, .slicon-mouse, .slicon-magnet, .slicon-energy, .slicon-disc, .slicon-cursor, .slicon-cursor-move, .slicon-crop, .slicon-chemistry, .slicon-speedometer, .slicon-shield, .slicon-screen-tablet, .slicon-magic-wand, .slicon-hourglass, .slicon-graduation, .slicon-ghost, .slicon-game-controller, .slicon-fire, .slicon-eyeglass, .slicon-envelope-open, .slicon-envelope-letter, .slicon-bell, .slicon-badge, .slicon-anchor, .slicon-wallet, .slicon-vector, .slicon-speech, .slicon-puzzle, .slicon-printer, .slicon-present, .slicon-playlist, .slicon-pin, .slicon-picture, .slicon-handbag, .slicon-globe-alt, .slicon-globe, .slicon-folder-alt, .slicon-folder, .slicon-film, .slicon-feed, .slicon-drop, .slicon-drawar, .slicon-docs, .slicon-doc, .slicon-diamond, .slicon-cup, .slicon-calculator, .slicon-bubbles, .slicon-briefcase, .slicon-book-open, .slicon-basket-loaded, .slicon-basket, .slicon-bag, .slicon-action-undo, .slicon-action-redo, .slicon-wrench, .slicon-umbrella, .slicon-trash, .slicon-tag, .slicon-support, .slicon-frame, .slicon-size-fullscreen, .slicon-size-actual, .slicon-shuffle, .slicon-share-alt, .slicon-share, .slicon-rocket, .slicon-question, .slicon-pie-chart, .slicon-pencil, .slicon-note, .slicon-loop, .slicon-home, .slicon-grid, .slicon-graph, .slicon-microphone, .slicon-music-tone-alt, .slicon-music-tone, .slicon-earphones-alt, .slicon-earphones, .slicon-equalizer, .slicon-like, .slicon-dislike, .slicon-control-start, .slicon-control-rewind, .slicon-control-play, .slicon-control-pause, .slicon-control-forward, .slicon-control-end, .slicon-volume-1, .slicon-volume-2, .slicon-volume-off, .slicon-calendar, .slicon-bulb, .slicon-chart, .slicon-ban, .slicon-bubble, .slicon-camrecorder, .slicon-camera, .slicon-cloud-download, .slicon-cloud-upload, .slicon-envelope, .slicon-eye, .slicon-flag, .slicon-heart, .slicon-info, .slicon-key, .slicon-link, .slicon-lock, .slicon-lock-open, .slicon-magnifier, .slicon-magnifier-add, .slicon-magnifier-remove, .slicon-paper-clip, .slicon-paper-plane, .slicon-power, .slicon-refresh, .slicon-reload, .slicon-settings, .slicon-star, .slicon-symble-female, .slicon-symbol-male, .slicon-target, .slicon-credit-card, .slicon-paypal, .slicon-social-tumblr, .slicon-social-twitter, .slicon-social-facebook, .slicon-social-instagram, .slicon-social-linkedin, .slicon-social-pinterest, .slicon-social-github, .slicon-social-gplus, .slicon-social-reddit, .slicon-social-skype, .slicon-social-dribbble, .slicon-social-behance, .slicon-social-foursqare, .slicon-social-soundcloud, .slicon-social-spotify, .slicon-social-stumbleupon, .slicon-social-youtube, .slicon-social-dropbox {font-family: "simple-line-icons";speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.slicon-user:before {content: "";}
+.slicon-people:before {content: "";}
+.slicon-user-female:before {content: "";}
+.slicon-user-follow:before {content: "";}
+.slicon-user-following:before {content: "";}
+.slicon-user-unfollow:before {content: "";}
+.slicon-login:before {content: "";}
+.slicon-logout:before {content: "";}
+.slicon-emotsmile:before {content: "";}
+.slicon-phone:before {content: "";}
+.slicon-call-end:before {content: "";}
+.slicon-call-in:before {content: "";}
+.slicon-call-out:before {content: "";}
+.slicon-map:before {content: "";}
+.slicon-location-pin:before {content: "";}
+.slicon-direction:before {content: "";}
+.slicon-directions:before {content: "";}
+.slicon-compass:before {content: "";}
+.slicon-layers:before {content: "";}
+.slicon-menu:before {content: "";}
+.slicon-list:before {content: "";}
+.slicon-options-vertical:before {content: "";}
+.slicon-options:before {content: "";}
+.slicon-arrow-down:before {content: "";}
+.slicon-arrow-left:before {content: "";}
+.slicon-arrow-right:before {content: "";}
+.slicon-arrow-up:before {content: "";}
+.slicon-arrow-up-circle:before {content: "";}
+.slicon-arrow-left-circle:before {content: "";}
+.slicon-arrow-right-circle:before {content: "";}
+.slicon-arrow-down-circle:before {content: "";}
+.slicon-check:before {content: "";}
+.slicon-clock:before {content: "";}
+.slicon-plus:before {content: "";}
+.slicon-close:before {content: "";}
+.slicon-trophy:before {content: "";}
+.slicon-screen-smartphone:before {content: "";}
+.slicon-screen-desktop:before {content: "";}
+.slicon-plane:before {content: "";}
+.slicon-notebook:before {content: "";}
+.slicon-mustache:before {content: "";}
+.slicon-mouse:before {content: "";}
+.slicon-magnet:before {content: "";}
+.slicon-energy:before {content: "";}
+.slicon-disc:before {content: "";}
+.slicon-cursor:before {content: "";}
+.slicon-cursor-move:before {content: "";}
+.slicon-crop:before {content: "";}
+.slicon-chemistry:before {content: "";}
+.slicon-speedometer:before {content: "";}
+.slicon-shield:before {content: "";}
+.slicon-screen-tablet:before {content: "";}
+.slicon-magic-wand:before {content: "";}
+.slicon-hourglass:before {content: "";}
+.slicon-graduation:before {content: "";}
+.slicon-ghost:before {content: "";}
+.slicon-game-controller:before {content: "";}
+.slicon-fire:before {content: "";}
+.slicon-eyeglass:before {content: "";}
+.slicon-envelope-open:before {content: "";}
+.slicon-envelope-letter:before {content: "";}
+.slicon-bell:before {content: "";}
+.slicon-badge:before {content: "";}
+.slicon-anchor:before {content: "";}
+.slicon-wallet:before {content: "";}
+.slicon-vector:before {content: "";}
+.slicon-speech:before {content: "";}
+.slicon-puzzle:before {content: "";}
+.slicon-printer:before {content: "";}
+.slicon-present:before {content: "";}
+.slicon-playlist:before {content: "";}
+.slicon-pin:before {content: "";}
+.slicon-picture:before {content: "";}
+.slicon-handbag:before {content: "";}
+.slicon-globe-alt:before {content: "";}
+.slicon-globe:before {content: "";}
+.slicon-folder-alt:before {content: "";}
+.slicon-folder:before {content: "";}
+.slicon-film:before {content: "";}
+.slicon-feed:before {content: "";}
+.slicon-drop:before {content: "";}
+.slicon-drawar:before {content: "";}
+.slicon-docs:before {content: "";}
+.slicon-doc:before {content: "";}
+.slicon-diamond:before {content: "";}
+.slicon-cup:before {content: "";}
+.slicon-calculator:before {content: "";}
+.slicon-bubbles:before {content: "";}
+.slicon-briefcase:before {content: "";}
+.slicon-book-open:before {content: "";}
+.slicon-basket-loaded:before {content: "";}
+.slicon-basket:before {content: "";}
+.slicon-bag:before {content: "";}
+.slicon-action-undo:before {content: "";}
+.slicon-action-redo:before {content: "";}
+.slicon-wrench:before {content: "";}
+.slicon-umbrella:before {content: "";}
+.slicon-trash:before {content: "";}
+.slicon-tag:before {content: "";}
+.slicon-support:before {content: "";}
+.slicon-frame:before {content: "";}
+.slicon-size-fullscreen:before {content: "";}
+.slicon-size-actual:before {content: "";}
+.slicon-shuffle:before {content: "";}
+.slicon-share-alt:before {content: "";}
+.slicon-share:before {content: "";}
+.slicon-rocket:before {content: "";}
+.slicon-question:before {content: "";}
+.slicon-pie-chart:before {content: "";}
+.slicon-pencil:before {content: "";}
+.slicon-note:before {content: "";}
+.slicon-loop:before {content: "";}
+.slicon-home:before {content: "";}
+.slicon-grid:before {content: "";}
+.slicon-graph:before {content: "";}
+.slicon-microphone:before {content: "";}
+.slicon-music-tone-alt:before {content: "";}
+.slicon-music-tone:before {content: "";}
+.slicon-earphones-alt:before {content: "";}
+.slicon-earphones:before {content: "";}
+.slicon-equalizer:before {content: "";}
+.slicon-like:before {content: "";}
+.slicon-dislike:before {content: "";}
+.slicon-control-start:before {content: "";}
+.slicon-control-rewind:before {content: "";}
+.slicon-control-play:before {content: "";}
+.slicon-control-pause:before {content: "";}
+.slicon-control-forward:before {content: "";}
+.slicon-control-end:before {content: "";}
+.slicon-volume-1:before {content: "";}
+.slicon-volume-2:before {content: "";}
+.slicon-volume-off:before {content: "";}
+.slicon-calendar:before {content: "";}
+.slicon-bulb:before {content: "";}
+.slicon-chart:before {content: "";}
+.slicon-ban:before {content: "";}
+.slicon-bubble:before {content: "";}
+.slicon-camrecorder:before {content: "";}
+.slicon-camera:before {content: "";}
+.slicon-cloud-download:before {content: "";}
+.slicon-cloud-upload:before {content: "";}
+.slicon-envelope:before {content: "";}
+.slicon-eye:before {content: "";}
+.slicon-flag:before {content: "";}
+.slicon-heart:before {content: "";}
+.slicon-info:before {content: "";}
+.slicon-key:before {content: "";}
+.slicon-link:before {content: "";}
+.slicon-lock:before {content: "";}
+.slicon-lock-open:before {content: "";}
+.slicon-magnifier:before {content: "";}
+.slicon-magnifier-add:before {content: "";}
+.slicon-magnifier-remove:before {content: "";}
+.slicon-paper-clip:before {content: "";}
+.slicon-paper-plane:before {content: "";}
+.slicon-power:before {content: "";}
+.slicon-refresh:before {content: "";}
+.slicon-reload:before {content: "";}
+.slicon-settings:before {content: "";}
+.slicon-star:before {content: "";}
+.slicon-symble-female:before {content: "";}
+.slicon-symbol-male:before {content: "";}
+.slicon-target:before {content: "";}
+.slicon-credit-card:before {content: "";}
+.slicon-paypal:before {content: "";}
+.slicon-social-tumblr:before {content: "";}
+.slicon-social-twitter:before {content: "";}
+.slicon-social-facebook:before {content: "";}
+.slicon-social-instagram:before {content: "";}
+.slicon-social-linkedin:before {content: "";}
+.slicon-social-pinterest:before {content: "";}
+.slicon-social-github:before {content: "";}
+.slicon-social-gplus:before {content: "";}
+.slicon-social-reddit:before {content: "";}
+.slicon-social-skype:before {content: "";}
+.slicon-social-dribbble:before {content: "";}
+.slicon-social-behance:before {content: "";}
+.slicon-social-foursqare:before {content: "";}
+.slicon-social-soundcloud:before {content: "";}
+.slicon-social-spotify:before {content: "";}
+.slicon-social-stumbleupon:before {content: "";}
+.slicon-social-youtube:before {content: "";}
+.slicon-social-dropbox:before {content: "";}
+.pdf-light-viewer {padding: 40px 0 20px;position: relative;margin-top: 20px;text-align: center;}
+.pdf-light-viewer [class^="slicon-"]:before, .pdf-light-viewer [class*=" slicon-"]:before {font-family: "simple-line-icons";}
+.pdf-light-viewer .initially-hidden {display: none;}
+.pdf-light-viewer .animated {-webkit-transition: margin-left .5s;transition: margin-left .5s;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport {display: block;z-index: 101;margin-bottom: 0px;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .shadow {-webkit-transition: -webkit-box-shadow .3s;-moz-transition: -moz-box-shadow .3s;-o-transition: -webkit-box-shadow .3s;-ms-transition: -ms-box-shadow .3s;-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button {width: 22px;position: absolute;bottom: 20px;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button {right: -22px;-webkit-border-radius: 0 15px 15px 0;border-radius: 0 15px 15px 0;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button {left: -22px;-webkit-border-radius: 15px 0 0 15px;border-radius: 15px 0 0 15px;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button-hover, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button-hover {background-color: rgba(0,0,0,.2);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button-hover, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button-down {background-image: url("../img/arrows.png");background-position: -4px 284px;background-repeat: no-repeat;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .previous-button-down, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button-down {background-color: rgba(0,0,0,.4);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button-hover, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .next-button-down {background-image: url("../img/arrows.png");background-position: -38px 284px;background-repeat: no-repeat;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .zoom-in .next-button, .pdf-light-viewer .pdf-light-viewer-magazine-viewport .zoom-in .previous-button {display: none;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine-viewport-container {position: relative;width: 100%;margin: auto;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine {margin-left: auto !important;margin-right: auto !important;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine .even .gradient {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-image: -webkit-gradient(linear,left top,right top,color-stop(95%,transparent),to(rgba(0,0,0,.2)));background-image: -webkit-linear-gradient(left,transparent 95%,rgba(0,0,0,.2) 100%);background-image: linear-gradient(to right,transparent 95%,rgba(0,0,0,.2) 100%);-webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);box-shadow: 0 0 20px rgba(0,0,0,.2);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine .odd .gradient {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-image: -webkit-gradient(linear,right top,left top,color-stop(95%,transparent),to(rgba(0,0,0,.15)));background-image: -webkit-linear-gradient(right,transparent 95%,rgba(0,0,0,.15) 100%);background-image: linear-gradient(to left,transparent 95%,rgba(0,0,0,.15) 100%);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine .page {background-color: white;background-repeat: no-repeat;background-size: 100% 100%;padding: 0 !important;-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .pdf-light-viewer-magazine .page img {-webkit-touch-callout: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;margin: 0;}
+.pdf-light-viewer .pdf-light-viewer-magazine-viewport .loader {background-image: url("../img/loader.gif");width: 22px;height: 22px;position: absolute;top: 280px;left: 219px;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen {padding: 0;background: #fff;overflow: auto;width: 100%;width: 100vw;height: 100%;height: 100vh;margin-top: 0px;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen .slicon-size-fullscreen {display: none;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen .slicon-size-actual {display: inline;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen .pdf-light-viewer-magazine-viewport.with-nav-top {margin-bottom: 80px;position: relative;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen .pdf-light-viewer-magazine-viewport.with-nav-top .pdf-light-viewer-features-bottom-toolbar-panel {bottom: -52px;}
+.pdf-light-viewer.pdf-light-viewer-fullscreen .pdf-light-viewer-magazine-viewport.with-nav-bottom {margin-top: 45px;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel {list-style: none;position: static;display: inline-block;text-align: center;background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(57%,#fefefe),to(#f6f6f6));background-image: -webkit-linear-gradient(top,#fff 0%,#fefefe 57%,#f6f6f6 100%);background-image: linear-gradient(to bottom,#fff 0%,#fefefe 57%,#f6f6f6 100%);-webkit-border-radius: 6px;border-radius: 6px;padding: 8px;margin: 10px 0;-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li {display: inline-block;vertical-align: middle;margin: 0px 4px;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li:after, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li:after {content: "";display: inline-block;vertical-align: middle;border-left: 1px solid LightGray;height: 25px;margin-left: 6px;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li:last-child:after, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li:last-child:after {display: none;margin-left: 0px;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li a, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li a, .pdf-light-viewer .pdf-light-viewer-features-top-panel li button, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li button, .pdf-light-viewer .pdf-light-viewer-features-top-panel li span, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li span {border: none;border: none;background: transparent;text-decoration: none;font-size: 25px;line-height: 35px;color: RoyalBlue;display: inline-block;vertical-align: middle;margin: 0;padding: 0;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li button:hover, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li button:hover {border: none;outline: none;-webkit-box-shadow: none;box-shadow: none;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li a:hover, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li a:hover {text-decoration: none;border: none;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li a:focus, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li a:focus {outline: none;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li span, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li span {color: #777;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li .pdf-light-viewer-goto-page-input, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li .pdf-light-viewer-goto-page-input {font-size: 17px !important;display: inline-block;text-align: center;width: 25px;border: none;padding: 3px 0 !important;margin: 0;border-bottom: 1px solid RoyalBlue;-webkit-transition: all .3s cubic-bezier(.64,.09,.08,1);transition: all .3s cubic-bezier(.64,.09,.08,1);background: transparent;background: -webkit-gradient(linear,left top,left bottom,color-stop(96%,rgba(255,255,255,0)),color-stop(4%,RoyalBlue)) !important;background: -webkit-linear-gradient(top,rgba(255,255,255,0) 96%,RoyalBlue 4%) !important;background: linear-gradient(to bottom,rgba(255,255,255,0) 96%,RoyalBlue 4%) !important;background-position: -25px 0;background-size: 25px 100%;background-repeat: no-repeat;color: #777;-webkit-box-shadow: none;box-shadow: none;}
+.pdf-light-viewer .pdf-light-viewer-features-top-panel li .pdf-light-viewer-goto-page-input:focus, .pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel li .pdf-light-viewer-goto-page-input:focus {-webkit-box-shadow: none;box-shadow: none;outline: none;background-position: 0 0;}
+.pdf-light-viewer .pdf-light-viewer-features-bottom-toolbar-panel {top: auto;bottom: -32px;right: 80px;-webkit-border-radius: 6px;border-radius: 6px;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails {text-align: center;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-features-bottom-panel, .pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-features-top-nav-panel {display: inline-block;text-align: center;background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(57%,#fefefe),to(#f6f6f6));background-image: -webkit-linear-gradient(top,#fff 0%,#fefefe 57%,#f6f6f6 100%);background-image: linear-gradient(to bottom,#fff 0%,#fefefe 57%,#f6f6f6 100%);-webkit-border-radius: 6px;border-radius: 6px;padding: 3px 8px;margin: 10px;-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper {margin: 0px auto 20px;-webkit-box-shadow: none;box-shadow: none;background: transparent;border-color: transparent;padding: 0 30px;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-pager {padding-top: 0px;bottom: 0px;position: static;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-pager a {background: #777;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-pager a.active {background: RoyalBlue;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-controls-direction a {z-index: 10;text-indent: 1px;font-size: 26px;color: RoyalBlue;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-controls-direction a, .pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-controls-direction a:hover {text-decoration: none;border: none;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-prev {left: -5px;background: transparent;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-next {right: -5px;background: transparent;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .bx-wrapper .bx-viewport {-webkit-box-shadow: none;box-shadow: none;border: none;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails ul {margin: 0;padding: 0;height: 180px;text-align: center;-webkit-transition: -webkit-transform ease-in-out 100ms;transition: -webkit-transform ease-in-out 100ms;transition: transform ease-in-out 100ms;transition: transform ease-in-out 100ms,-webkit-transform ease-in-out 100ms;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails li {padding: 15px 0px;margin: 0;list-style: none;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide {display: block;-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 0px 2px 2px 0px rgba(0,0,0,.14),0px 3px 1px -2px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);background: #fff;text-align: center;cursor: pointer;border: 1px solid rgba(0,0,0,.08);}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide a {display: inline-block;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide img {max-width: 73px;max-height: 100px;display: inline-block;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide span {clear: both;display: block;}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide.current {-webkit-box-shadow: 0px 2px 2px 0px rgba(65,105,225,.14),0px 3px 1px -2px rgba(65,105,225,.2),0px 1px 5px 0px rgba(65,105,225,.12);box-shadow: 0px 2px 2px 0px rgba(65,105,225,.14),0px 3px 1px -2px rgba(65,105,225,.2),0px 1px 5px 0px rgba(65,105,225,.12);border: 1px solid rgba(65,105,225,.23);}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-slide.thumb-hover {-webkit-box-shadow: 0 3px 6px rgba(65,105,225,.16),0 3px 6px rgba(65,105,225,.23);box-shadow: 0 3px 6px rgba(65,105,225,.16),0 3px 6px rgba(65,105,225,.23);border: 1px solid rgba(65,105,225,.23);}
+.pdf-light-viewer .pdf-light-viewer-magazine-thumbnails .pdf-light-viewer-features-top-nav-panel {-webkit-border-radius: 6px;border-radius: 6px;}
+.pdf-light-viewer .thumbanils-touch ul {-webkit-transform: none;-ms-transform: none;transform: none;}
+.pdf-light-viewer .exit-message {position: absolute;top: 10px;left: 0;width: 100%;height: 40px;z-index: 10000;}
+.pdf-light-viewer .exit-message > div {width: 140px;height: 30px;margin: auto;background: rgba(0,0,0,.5);text-align: center;font: 12px arial;line-height: 30px;color: white;-webkit-border-radius: 10px;border-radius: 10px;}
+.pdf-light-viewer .pdf-light-viewer-print-options-contaner {display: none;}
+body .pdf-light-viewer-tips {margin-left: -12px;background: transparent;border-color: transparent;}
+body .pdf-light-viewer-tips .qtip-tip {background: #fff;}
+body .pdf-light-viewer-tips .qtip-content {background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(57%,#fefefe),to(#f6f6f6));background-image: -webkit-linear-gradient(top,#fff 0%,#fefefe 57%,#f6f6f6 100%);background-image: linear-gradient(to bottom,#fff 0%,#fefefe 57%,#f6f6f6 100%);-webkit-border-radius: 6px;border-radius: 6px;padding: 12px 24px;-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);box-shadow: 1px 2px 2px 0px rgba(0,0,0,.14),0px 3px 2px -1px rgba(0,0,0,.2),0px 1px 5px 0px rgba(0,0,0,.12);}
+body .pdf-light-viewer-tips .qtip-content ul {padding: 0;margin: 0;}
+body .pdf-light-viewer-tips .qtip-content li {list-style: none;padding: 0;margin: 0;}
+body .pdf-light-viewer-tips .qtip-content a {color: RoyalBlue;text-decoration: none;font-size: 16px;line-height: 24px;}
