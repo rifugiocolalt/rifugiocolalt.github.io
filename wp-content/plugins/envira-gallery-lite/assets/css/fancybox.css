@@ -51,5 +51,5 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {#envirabox-loading, .envirabox-close, #envirabox-left #envirabox-left-ico, #envirabox-right #envirabox-right-ico, #envirabox-close {background-image: url("images/envirabox_sprite@2x.png");background-size: 44px 152px;}
-	#envirabox-loading div {background-image: url("images/envirabox_loading@2x.gif");background-size: 24px 24px;}}
+only screen and (                min-resolution: 2dppx) {#envirabox-loading, .envirabox-close, #envirabox-left #envirabox-left-ico, #envirabox-right #envirabox-right-ico, #envirabox-close {background-image: url("images/envirabox_sprite.png");background-size: 44px 152px;}
+	#envirabox-loading div {background-image: url("images/envirabox_loading.gif");background-size: 24px 24px;}}

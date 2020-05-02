@@ -130,5 +130,5 @@ a.envirabox-close, a.envirabox-nav, a.fancy-close:hover, a.envirabox-nav:hover {
 #envirabox-thumbs ul li:hover {opacity: .75;}
 #envirabox-thumbs ul li a {display: block;position: relative;overflow: hidden;border: 1px solid #222;background: #111;outline: none;}
 #envirabox-thumbs ul li img {display: block;position: relative;border: 0;padding: 0;max-width: none;}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {#envirabox-loading, .envirabox-close, .envirabox-prev span, .envirabox-next span {background-image: url("images/envirabox_sprite@2x.png");background-size: 44px 152px;}
-	#envirabox-loading div {background-image: url("images/envirabox_loading@2x.gif");background-size: 24px 24px;}}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {#envirabox-loading, .envirabox-close, .envirabox-prev span, .envirabox-next span {background-image: url("images/envirabox_sprite.png");background-size: 44px 152px;}
+	#envirabox-loading div {background-image: url("images/envirabox_loading.gif");background-size: 24px 24px;}}
