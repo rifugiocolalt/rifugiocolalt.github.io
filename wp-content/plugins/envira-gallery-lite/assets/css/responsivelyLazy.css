@@ -1,0 +1,6 @@
+.envira-lazy:not(img) {position: relative;height: 0;display: block;overflow: hidden;}
+.envira-lazy:not(img) img {position: absolute;top: 0;left: 0;}
+.envira-gallery-1-columns .envira-lazy:not(img) img, .envira-gallery-2-columns .envira-lazy:not(img) img, .envira-gallery-3-columns .envira-lazy:not(img) img, .envira-gallery-4-columns .envira-lazy:not(img) img, .envira-gallery-5-columns .envira-lazy:not(img) img, .envira-gallery-6-columns .envira-lazy:not(img) img {position: relative;}
+img.envira-lazy {width: 100%;}
+.envira-gallery-item.envira-lazy-load .envira-gallery-position-overlay {display: none;}
+.envira-gallery-item.envira-lazy-load .envira-title, .envira-gallery-item.envira-lazy-load .envira-caption {visibility: hidden;}
